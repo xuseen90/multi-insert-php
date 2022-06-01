@@ -14,6 +14,8 @@
 
 
     <?php
+    
+    
     $sql = "SELECT * FROM categery";
     $result = mysqli_query($connection, $sql);
     $fields = $result->fetch_fields();
